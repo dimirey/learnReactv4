@@ -1,3 +1,6 @@
+import React from 'React'
+import { render } from 'react-dom'
+
 const Pet = props => {
     return React.createElement("div", {}, [
         React.createElement("h1", {}, props.name),
